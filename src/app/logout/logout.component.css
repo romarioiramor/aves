@@ -1,4 +1,45 @@
-.logout {
-  margin-top: 50px;
+.logout-container {
+width: 100%;
+max-width: 1120px;
+height: 100vh;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.logout-container section.form {
+  width: 100%;
+  max-width: 380px;
+  margin-right: 30px;
+}
+
+.logout-container section.form form {
+  margin-top: auto;
+}
+
+.logout-container section.form form h1 {
+  margin-top: 5px;
+  font-size: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.logout-container section.form form a {
+  display: inline-flex;
+  padding: 45px;
+  align-items: center;
+  margin-top: 10px;
+  color: blue;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
 
 }
+
+.logout-container section.form form a:hover {
+  opacity: 0.8;
+}
+
+
