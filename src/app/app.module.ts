@@ -7,6 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { AvesComponent } from './aves/aves.component';
 import { LogoutComponent } from './logout/logout.component';
+import { RegisterComponent } from './register/register.component';
+import { NewAvesComponent } from './new-aves/new-aves.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { LogoutComponent } from './logout/logout.component';
     LoginComponent,
     HomeComponent,
     AvesComponent,
-    LogoutComponent
+    LogoutComponent,
+    RegisterComponent,
+    NewAvesComponent
   ],
   imports: [
     BrowserModule,

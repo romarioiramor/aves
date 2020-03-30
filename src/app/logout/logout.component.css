@@ -25,21 +25,3 @@ justify-content: center;
   text-align: center;
 }
 
-.logout-container section.form form a {
-  display: inline-flex;
-  padding: 45px;
-  align-items: center;
-  margin-top: 10px;
-  color: blue;
-  font-size: 18px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: opacity 0.2s;
-
-}
-
-.logout-container section.form form a:hover {
-  opacity: 0.8;
-}
-
-

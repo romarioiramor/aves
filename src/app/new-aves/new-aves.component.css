@@ -1,63 +1,67 @@
-.profile-container {
+.new-aves-container {
   width: 100%;
   max-width: 1180px;
   padding: 0 30px;
   margin: 32px auto;
 }
 
-.profile-container header {
+.new-aves-container header {
   display: flex;
   align-items: center;
 }
 
-.profile-container header span {
+.new-aves-container header span {
   font-size: 20px;
   margin-left: 24px;
 }
 
-.profile-container header img {
+.new-aves-container header img {
   border-radius: 50%;
   height: 150px;
   width: 200px;
 }
 
-.profile-container header a {
+.new-aves-container header a {
   width: 260px;
   margin-left: auto;
   margin-top: 0;
 }
 
-.profile-container h1 {
+.new-aves-container h1 {
   margin-top: 80px;
   margin-bottom: 24px;
 }
 
-.profile-container ul {
+.new-aves-container ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 24px;
   list-style: none;
 }
 
-.profile-container ul li {
+.new-aves-container ul li {
   background: #FFF;
   padding: 24px;
   border-radius: 8px;
   position: relative;
 }
 
-.profile-container ul li strong {
+.new-aves-container ul li strong {
   display: block;
   margin-bottom: 16px;
   color: #41414d;
 }
 
-.profile-container ul li p + strong {
+.new-aves-container ul li p + strong {
   margin-top: 32px;
 }
 
-.profile-container ul li p {
+.new-aves-container ul li p {
   color: #737380;
   line-height: 21px;
   font-size: 16px;
+}
+
+.new-aves-container form input {
+  margin-top: 8px;
 }

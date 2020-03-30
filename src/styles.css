@@ -63,5 +63,24 @@ form input {
   border-radius: 15px;
   border: thin solid;
   padding: 5px;
-}*/
+}
+*/
+
+.back-link {
+  display: inline-flex;
+  padding: 45px;
+  align-items: center;
+  margin-top: 5px;
+  color: blue;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+
+}
+
+.back-link:hover {
+  opacity: 0.8;
+}
+
 
