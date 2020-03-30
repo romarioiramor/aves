@@ -9,7 +9,7 @@
 
 body {
   font: 400 14px Roboto, sans-serif;
-  background: #d8d8e4;
+  background: #c3c3c3;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -50,6 +50,26 @@ form input {
 .button:hover {
   filter: brightness(70%);
 }
+.button-editar {
+  width: 100%;
+  height: 60px;
+  background: #9932CC;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.button-editar:hover {
+  filter: brightness(70%);
+}
 
 .material-icons {
   color: #000;
@@ -62,7 +82,7 @@ form input {
 .logo {
   width: 370px;
   height: 150px;
-
+  color: #d8d8e4;
 }
 
 /*.principal-tarin {
@@ -90,6 +110,5 @@ form input {
 .back-link:hover {
   opacity: 0.8;
 }
-
 
 
