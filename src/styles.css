@@ -51,6 +51,14 @@ form input {
   filter: brightness(70%);
 }
 
+.material-icons {
+  color: #000;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 100px;
+}
+
 .logo {
   width: 370px;
   height: 150px;
@@ -82,5 +90,6 @@ form input {
 .back-link:hover {
   opacity: 0.8;
 }
+
 
 
